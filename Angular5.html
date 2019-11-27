@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="MyModule">
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular Lesson 5:Two way Data Binding</title>
+</head>
+<script src="C:\Users\577525\eclipse-workspace\AngularLesson5-2WayDataBinding\src\Scripts\angular.js"></script>
+<script src="C:\Users\577525\eclipse-workspace\AngularLesson5-2WayDataBinding\src\Scripts\AngularLesson5.js"></script>
+
+<body ng-controller="MyController">
+<div>
+<tr>
+<td>
+{{ message.name }}
+{{ message.bat }}
+</td>
+</tr>
+</div>
+<div>
+<input type="Text" ng-model="message.name" />
+<p ng-model="message.bat"> </p> 
+</div>
+</body>
+</html>
